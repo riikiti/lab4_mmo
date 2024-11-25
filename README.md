@@ -1,1 +1,2 @@
- ![plot](./Screenshot 2024-11-25 184850.png)
+# Резульаты
+ ![plot](./res.png.png)
