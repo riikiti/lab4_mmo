@@ -53,7 +53,7 @@ model.compile(optimizer='adam', # Алгоритм градиентного сп
 
 
 model.fit(x_train, y_train_cat,
-                epochs = 2,
+                epochs = 1,
                 verbose = 0)
 
 score = model.evaluate(x_train, y_train_cat, verbose=0)
