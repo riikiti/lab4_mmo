@@ -32,6 +32,13 @@ model.add(Conv2D(
             padding = 'same', # Добавление к картинке полей same или valid (картинка уменьшится)
             activation = 'relu'))
 
+model.add(Conv2D(
+            filters = 120,
+            kernel_size = (3,3),
+            strides = (1,1), # Шаг движения ядра свёртки
+            padding = 'same', # Добавление к картинке полей same или valid (картинка уменьшится)
+            activation = 'relu'))
+
 # тут можно добавить ещё один, или не один свёрточный слой
 
 model.add(MaxPooling2D(# Понижение размерности изображения
