@@ -1,2 +1,2 @@
 # Резульаты
- ![plot](./res.png.png)
+ ![plot](./res.png)
